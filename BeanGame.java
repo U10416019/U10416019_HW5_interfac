@@ -60,7 +60,87 @@ public class BeanGame extends Application{
 		pane.getChildren().add(left);
 		pane.getChildren().add(right);
 		
-
+		
+		
+		//create the first layer circles
+		Circle c1_1 = new Circle(85, 310, 7);
+		Circle c1_2 = new Circle(120, 310, 7);
+		Circle c1_3 = new Circle(155, 310, 7);
+		Circle c1_4 = new Circle(190, 310, 7);
+		Circle c1_5 = new Circle(225, 310, 7);
+		Circle c1_6 = new Circle(260, 310, 7);
+		Circle c1_7 = new Circle(295, 310, 7);
+		//add the circles in the pane
+		pane.getChildren().add(c1_1);
+		pane.getChildren().add(c1_2);
+		pane.getChildren().add(c1_3);
+		pane.getChildren().add(c1_4);
+		pane.getChildren().add(c1_5);
+		pane.getChildren().add(c1_6);
+		pane.getChildren().add(c1_7);
+		
+		
+		
+		//create the second layer circles
+		Circle c2_1 = new Circle(102.5, 272, 7);
+		Circle c2_2 = new Circle(137.5, 272, 7);
+		Circle c2_3 = new Circle(172.5, 272, 7);
+		Circle c2_4 = new Circle(207.5, 272, 7);
+		Circle c2_5 = new Circle(242.5, 272, 7);
+		Circle c2_6 = new Circle(277.5, 272, 7);
+		//add the circles in the pane
+		pane.getChildren().add(c2_1);
+		pane.getChildren().add(c2_2);
+		pane.getChildren().add(c2_3);
+		pane.getChildren().add(c2_4);
+		pane.getChildren().add(c2_5);
+		pane.getChildren().add(c2_6);
+		
+		
+		
+		//create the third layer circles
+		Circle c3_1 = new Circle(120, 234, 7);
+		Circle c3_2 = new Circle(155, 234, 7);
+		Circle c3_3 = new Circle(190, 234, 7);
+		Circle c3_4 = new Circle(225, 234, 7);
+		Circle c3_5 = new Circle(260, 234, 7);
+		//add the circles in the pane
+		pane.getChildren().add(c3_1);
+		pane.getChildren().add(c3_2);
+		pane.getChildren().add(c3_3);
+		pane.getChildren().add(c3_4);
+		pane.getChildren().add(c3_5);
+		
+		
+		
+		//create the forth layer circles
+		Circle c4_1 = new Circle(137.5, 196, 7);
+		Circle c4_2 = new Circle(172.5, 196, 7);
+		Circle c4_3 = new Circle(207.5, 196, 7);
+		Circle c4_4 = new Circle(242.5, 196, 7);
+		//add the circles in the pane
+		pane.getChildren().add(c4_1);
+		pane.getChildren().add(c4_2);
+		pane.getChildren().add(c4_3);
+		pane.getChildren().add(c4_4);
+		
+		
+		
+		//create the fifth, sixth and seventh layer circles
+		Circle c5_1 = new Circle(155, 158, 7);
+		Circle c5_2 = new Circle(190, 158, 7);
+		Circle c5_3 = new Circle(225, 158, 7);
+		Circle c6_1 = new Circle(172.5, 120, 7);
+		Circle c6_2 = new Circle(207.5, 120, 7);
+		Circle c7_1 = new Circle(190, 82, 7);
+		//add the circles in the pane
+		pane.getChildren().add(c5_1);
+		pane.getChildren().add(c5_2);
+		pane.getChildren().add(c5_3);
+		pane.getChildren().add(c6_1);
+		pane.getChildren().add(c6_2);
+		pane.getChildren().add(c7_1);
+		
 		
 		//Create a scene and place it in the stage
 		Scene scene = new Scene(pane, 380, 410);
